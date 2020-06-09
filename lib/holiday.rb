@@ -60,14 +60,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   contact_details_hash.each do |attribute, data|
-      if attribute == :fourth_of_july
-       if {|supply| supply includes?("BBQ")}
-         
-      end
     end
-  end
-  holiday_hash
-
 end
 
 
